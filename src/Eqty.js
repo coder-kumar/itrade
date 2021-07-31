@@ -9,4 +9,4 @@ function Eqty() {
     );
 }
 
-export default App;
+export default Eqty;
