@@ -6,5 +6,7 @@ function Eqty() {
             <p>info1</p>
             <p>info2</p>
         </>
-    )
+    );
 }
+
+export default App;
