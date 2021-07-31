@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles({
   root: {
@@ -20,11 +21,15 @@ function Eqty() {
     const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Grid container className={classes.root} spacing={2}>
+      <Grid item xs={12}>
+        <Grid container justifyContent="center" spacing={2}>
+            <Grid item>
+                  <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="/images/contemplative-reptile.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -46,6 +51,10 @@ function Eqty() {
         </Button>
       </CardActions>
     </Card>
+            </Grid>
+        </Grid>
+      </Grid>
+      </Grid>
   );
 }
 
