@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import './Eqty';
+import Eqty from './Eqty';
 
 function App() {
   return (
