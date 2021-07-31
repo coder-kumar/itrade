@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './Eqty';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Kasu Graph
+          <Eqty />
         </p>
       </header>
     </div>
